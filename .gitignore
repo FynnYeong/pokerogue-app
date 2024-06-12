@@ -1,0 +1,125 @@
+/simpleDemo/build.gradle
+/simpleDemo/simpleDemo.iml
+/simpleDemo/build/outputs/apk/debug
+
+# 编译输出目录
+/simpleDemo/build/
+/simpleDemo/app/build/
+
+# 局部配置文件
+/local.properties
+
+# Proguard文件
+/proguard-rules.pro
+
+# IntelliJ IDEA的文件
+/.idea/
+/*.iml
+
+# Android Studio 3 in .idea folder
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# 捕获的内容
+captures/
+
+# Gradle Wrapper文件
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.jar
+
+# 项目的gradle文件
+/.gradle
+/build/
+*/build/
+
+# 日志文件
+*.log
+
+# MacOS文件
+.DS_Store
+
+# Windows文件
+Thumbs.db
+
+# APK文件
+*.apk
+*.ap_
+
+# 本地配置文件
+/local.properties
+
+# 密钥文件
+*.jks
+
+# Android Studio Profiling files
+*.hprof
+
+# Miscellaneous
+.idea/ # Ignore all the .idea specific files
+**/build/
+**/captures/
+.externalNativeBuild/
+.cxx/
+*.class
+*.apk
+*.ap_
+*.dex
+*.jar
+*.so
+*.obj
+*.lock
+*.gz
+*.bin
+*.lst
+*.pt
+*.sublime-workspace
+*.iml
+*.hprof
+*.original
+
+# Android Studio 4.0+ generated files
+.idea/.name
+.idea/.gitignore
+.idea/codeStyles/Project.xml
+.idea/dictionaries
+.idea/workspace.xml
+.idea/caches
+.idea/libraries
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+# OS-specific files
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+._.*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

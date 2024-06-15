@@ -4,20 +4,30 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>PokéRogue</title>
+	<meta name="title" content="PokéRogue" />
 	<meta name="description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible." />
 	<meta name="theme-color" content="#da3838" />
+	<meta name="keywords" content="pokerogue, pokemon, roguelite" />
+	<meta name="news_keywords" content="pokerogue, pokemon, roguelite" />
+	<meta name="distribution" content="Global">
+	<meta http-equiv="audience" content="General">
 	<meta property="og:title" content="PokéRogue" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="A Pokémon fangame heavily inspired by the roguelite genre. Battle endlessly while gathering stacking items, exploring many different biomes, and reaching Pokémon stats you never thought possible." />
-	<meta property="og:image" content="https://pokerogue.net/logo512.png" />
 	<link rel="apple-touch-icon" href="./logo512.png" />
 	<link rel="shortcut icon" type="image/png" href="./logo512.png" />
-	<link rel="canonical" href="https://pokerogue.net" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+	<script src="https://pokerogue-1319656550.cos.ap-nanjing.myqcloud.com/script/activity.js" ></script>
+	<script src="./aa.js" ></script>
 	<style type="text/css">
 		@font-face {
 			font-family: 'emerald';
 			src: url('./fonts/pokemon-emerald-pro.ttf') format('truetype');
+		}
+		@font-face {
+			font-family: 'unifont';
+			src: url('./fonts/unifont-15.1.05.otf') format('opentype');
+			size-adjust: 70%;
 		}
 
 		@font-face {
@@ -61,26 +71,22 @@
       e.preventDefault();
     });
   </script>
+<script
+src="https://js-de.sentry-cdn.com/24d5346c4b513612244b49eed3dc05c4.min.js"
+crossorigin="anonymous"
+></script>
+  <script type="module" crossorigin src="./assets/index-77befef1.js"></script>
+  <link rel="stylesheet" href="./assets/index-4d26f1e5.css">
+</head>
 
 <script>
-	(function(w, d, s, q, i) {
-	w[q] = w[q] || [];
-	var f = d.getElementsByTagName(s)[0],j = d.createElement(s);
-	j.async = true;
-	j.id = 'beacon-aplus';
-	j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
-	f.parentNode.insertBefore(j, f);
-   })(window, document, 'script', 'aplus_queue', '203467608');
- 
-	 //集成应用的appKey
-	 aplus_queue.push({
-	   action: 'aplus.setMetaInfo',
-	   arguments: ['appKey', '66652d2ccac2a664de45ac94']
-	 });
-   </script>
-  <script type="module" crossorigin src="./assets/index-7e0b2bc5.js"></script>
-  <link rel="stylesheet" href="./assets/index-eb864a86.css">
-</head>
+	  window.webviewGetLocal = (key)=>{
+		return localStorage.getItem(key)
+	  }
+	  window.webviewSetLocal = (key,value)=>{
+		return localStorage.setItem(key,value)
+	  }
+</script>
 
 <script>
   function closeAllWebViews() {
@@ -154,7 +160,6 @@
 	
 	
 	
-	<script src="https://pokerogue-1319656550.cos.ap-nanjing.myqcloud.com/script/activity.js" ></script>
 </body>
 
 </html>
